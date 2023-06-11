@@ -279,6 +279,7 @@ section {
   padding: 2rem;
   margin-bottom: 4rem;
   user-select: none;
+  height: 25rem;
 }
 .reviews-slider .slide p {
   line-height: 2;

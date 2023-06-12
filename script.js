@@ -71,7 +71,7 @@ const homeSwiper = new Swiper(".image", {
   grabCursor: true,
   loop: true,
   autoplay: {
-    delay: 2500,
+    delay: 5500,
     disableOnInteraction: false,
   },
   pagination: {

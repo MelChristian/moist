@@ -89,10 +89,7 @@ section {
   align-items: center;
   justify-content: space-between;
 }
-.header .flex .logo {
-  font-size: 2.5rem;
-  color: var(--white);
-}
+
 .header .flex .navbar a {
   margin-left: 2rem;
   color: var(--white);
@@ -360,6 +357,9 @@ section {
   background-color: var(--light-white);
   cursor: pointer;
 }
+.reset-btn {
+  margin-left: 3.75rem;
+}
 .contact .row form .radio input:checked {
   background-color: var(--green);
   border-radius: 5rem;
@@ -370,6 +370,7 @@ section {
 .contact .row form .radio #female:checked ~ label[for="female"] {
   color: var(--green);
 }
+
 .footer {
   background-color: var(--light-bg);
   text-align: center;

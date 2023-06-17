@@ -449,10 +449,9 @@
           />
           <span>Phone</span>
           <input
-            type="phone"
+            type="tel"
             placeholder="+69"
-            max="99999999999"
-            min="0"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
             class="box"
             name="number"
             onkeypress="if(this.value.length == 10 ) return false"
@@ -488,6 +487,7 @@
               2-Year Diploma in Midwifery
             </option>
           </select>
+
           <span>select gender</span>
           <div class="radio">
             <label for="male">Male</label>
@@ -496,6 +496,7 @@
             <input type="radio" name="gender" value="female" id="fmale" />
           </div>
           <input type="submit" class="btn" value="Send Message" />
+          <input type="reset" class="btn reset-btn" value="Reset" />
         </form>
       </div>
     </section>

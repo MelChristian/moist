@@ -49,7 +49,7 @@ const instructorSwiper = new Swiper(".instructor-slider", {
 const reviewsSwiper = new Swiper(".reviews-slider", {
   spaceBetween: 20,
   grabCursor: true,
-  loop: true,
+  loop: false,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
